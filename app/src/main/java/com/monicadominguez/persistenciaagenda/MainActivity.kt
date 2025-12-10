@@ -21,10 +21,10 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        val etNom = findViewById<EditText>(R.id.etNom)
-        val etCognoms = findViewById<EditText>(R.id.etCognoms)
-        val etTelefon = findViewById<EditText>(R.id.etTelefon)
-        val etEmail = findViewById<EditText>(R.id.etEmail)
+        val etNom = findViewById<EditText>(R.id.itemNom)
+        val etCognoms = findViewById<EditText>(R.id.itemCognoms)
+        val etTelefon = findViewById<EditText>(R.id.telefon)
+        val etEmail = findViewById<EditText>(R.id.email)
         val btnGuardar = findViewById<Button>(R.id.btnGuardar)
         val btnLista = findViewById<Button>(R.id.btnVerLista)
 
